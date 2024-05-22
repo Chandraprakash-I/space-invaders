@@ -1,9 +1,21 @@
 
-
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    overflow:hidden;
+    background-image: url("https://images.unsplash.com/photo-1520034475321-cbe63696469a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+  }
 .grid{
     width: 300px;
     height: 300px;
     border-style: solid;
+    border-color:white;
     display: flex;
     flex-wrap: wrap;
    
@@ -32,3 +44,6 @@
 .boom{
     background-color: yellow;
 }
+.result,.score{
+    color:white;
+  }
